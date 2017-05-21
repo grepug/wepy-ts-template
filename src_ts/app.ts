@@ -1,0 +1,19 @@
+import { AppDecor } from 'wepy-ts'
+
+
+@AppDecor({
+    config: {
+        pages: [
+            'pages/index',
+            'pages/me',
+        ]
+    }
+})
+export class APP {
+
+    onLaunch() {
+        console.log(this)
+        console.log('hi')
+    }
+
+}
