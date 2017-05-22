@@ -1,4 +1,11 @@
 {
+  "name": "wepy-ts-template",
+  "version": "0.0.1",
+  "scripts": {
+    "start": "npm run build",
+    "build":　"node build/build.js",
+    "wepy": "wepy build -w"
+  },
   "dependencies": {
     "less": "^2.7.2",
     "wepy": "^1.3.10",
@@ -13,6 +20,6 @@
     "wepy-compiler-typescript": "^1.3.9",
     "wepy-plugin-imagemin": "^1.3.7",
     "wepy-plugin-uglifyjs": "^1.3.6",
-    "wepy-ts": "^0.0.1-alpha-7"
+    "wepy-ts": "^0.0.1-alpha-8"
   }
 }
